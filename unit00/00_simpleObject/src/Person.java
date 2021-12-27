@@ -124,6 +124,6 @@ public class Person implements Comparable<Person>{
      * @return  true if the age is in the range of 0 through 115 or false if the age was out of range or not specified
      */
     public boolean ageIsKnown() {
-        return age < 0;
+        return age >=0;
     }
 }
